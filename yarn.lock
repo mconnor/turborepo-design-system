@@ -3311,7 +3311,7 @@ __metadata:
   dependencies:
     eslint: 7.32.0
     prettier: ^2.5.1
-    turbo: latest
+    turbo: ^1.2.5
   languageName: unknown
   linkType: soft
 
@@ -3848,7 +3848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo@npm:latest":
+"turbo@npm:^1.2.5":
   version: 1.2.5
   resolution: "turbo@npm:1.2.5"
   dependencies:
