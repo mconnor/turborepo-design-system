@@ -5,58 +5,6 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@acme/core@*, @acme/core@workspace:packages/acme-core":
-  version: 0.0.0-use.local
-  resolution: "@acme/core@workspace:packages/acme-core"
-  dependencies:
-    "@acme/tsconfig": "*"
-    "@types/react": ^17.0.13
-    "@types/react-dom": ^17.0.8
-    eslint-preset-acme: "*"
-    react: ^17.0.2
-    tsup: ^5.10.1
-    typescript: ^4.5.3
-  languageName: unknown
-  linkType: soft
-
-"@acme/docs@workspace:apps/docs":
-  version: 0.0.0-use.local
-  resolution: "@acme/docs@workspace:apps/docs"
-  dependencies:
-    "@acme/core": "*"
-    "@acme/tsconfig": "*"
-    "@acme/utils": "*"
-    "@types/node": ^17.0.12
-    "@types/react": ^17.0.37
-    "@types/react-dom": ^17.0.11
-    eslint-preset-acme: "*"
-    next: ^12.0.8
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    typescript: ^4.5.4
-  languageName: unknown
-  linkType: soft
-
-"@acme/tsconfig@*, @acme/tsconfig@workspace:packages/acme-tsconfig":
-  version: 0.0.0-use.local
-  resolution: "@acme/tsconfig@workspace:packages/acme-tsconfig"
-  languageName: unknown
-  linkType: soft
-
-"@acme/utils@*, @acme/utils@workspace:packages/acme-utils":
-  version: 0.0.0-use.local
-  resolution: "@acme/utils@workspace:packages/acme-utils"
-  dependencies:
-    "@acme/tsconfig": "*"
-    "@types/react": ^17.0.13
-    "@types/react-dom": ^17.0.8
-    eslint-preset-acme: "*"
-    react: ^17.0.2
-    tsup: ^5.10.1
-    typescript: ^4.5.3
-  languageName: unknown
-  linkType: soft
-
 "@babel/code-frame@npm:7.12.11":
   version: 7.12.11
   resolution: "@babel/code-frame@npm:7.12.11"
@@ -144,6 +92,58 @@ __metadata:
   checksum: a824a1ec31591231e4bad5787641f59e9633827d0a2eaae131a288d33c9ef0290bd16fda8da6f7c0fcb014147865d12118df10db57f27f41e20da92369fcb3f1
   languageName: node
   linkType: hard
+
+"@hybrid/core@*, @hybrid/core@workspace:packages/hybrid-core":
+  version: 0.0.0-use.local
+  resolution: "@hybrid/core@workspace:packages/hybrid-core"
+  dependencies:
+    "@hybrid/tsconfig": "*"
+    "@types/react": ^17.0.13
+    "@types/react-dom": ^17.0.8
+    eslint-preset-hybrid: "*"
+    react: ^17.0.2
+    tsup: ^5.10.1
+    typescript: ^4.5.3
+  languageName: unknown
+  linkType: soft
+
+"@hybrid/docs@workspace:apps/docs":
+  version: 0.0.0-use.local
+  resolution: "@hybrid/docs@workspace:apps/docs"
+  dependencies:
+    "@hybrid/core": "*"
+    "@hybrid/tsconfig": "*"
+    "@hybrid/utils": "*"
+    "@types/node": ^17.0.12
+    "@types/react": ^17.0.37
+    "@types/react-dom": ^17.0.11
+    eslint-preset-hybrid: "*"
+    next: ^12.0.8
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    typescript: ^4.5.4
+  languageName: unknown
+  linkType: soft
+
+"@hybrid/tsconfig@*, @hybrid/tsconfig@workspace:packages/hyrbrid-tsconfig":
+  version: 0.0.0-use.local
+  resolution: "@hybrid/tsconfig@workspace:packages/hyrbrid-tsconfig"
+  languageName: unknown
+  linkType: soft
+
+"@hybrid/utils@*, @hybrid/utils@workspace:packages/hybrid-utils":
+  version: 0.0.0-use.local
+  resolution: "@hybrid/utils@workspace:packages/hybrid-utils"
+  dependencies:
+    "@hybrid/tsconfig": "*"
+    "@types/react": ^17.0.13
+    "@types/react-dom": ^17.0.8
+    eslint-preset-hybrid: "*"
+    react: ^17.0.2
+    tsup: ^5.10.1
+    typescript: ^4.5.3
+  languageName: unknown
+  linkType: soft
 
 "@next/env@npm:12.1.5":
   version: 12.1.5
@@ -1500,9 +1500,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-preset-acme@*, eslint-preset-acme@workspace:packages/eslint-preset-acme":
+"eslint-preset-hybrid@*, eslint-preset-hybrid@workspace:packages/eslint-preset-hyrbrid":
   version: 0.0.0-use.local
-  resolution: "eslint-preset-acme@workspace:packages/eslint-preset-acme"
+  resolution: "eslint-preset-hybrid@workspace:packages/eslint-preset-hyrbrid"
   dependencies:
     eslint-config-next: ^12.0.8
     eslint-config-prettier: ^8.3.0

@@ -1,5 +1,5 @@
-import { Button } from "@acme/core";
-import { useIsomorphicLayoutEffect } from "@acme/utils";
+import { Button } from "@hybrid/core";
+import { useIsomorphicLayoutEffect } from "@hybrid/utils";
 
 export default function Docs() {
   useIsomorphicLayoutEffect(() => {
