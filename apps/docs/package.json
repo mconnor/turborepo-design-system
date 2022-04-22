@@ -12,16 +12,16 @@
   "dependencies": {
     "@hybrid/core": "*",
     "@hybrid/utils": "*",
-    "next": "^12.0.8",
+    "next": "^12.1.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@hybrid/tsconfig": "*",
-    "@types/node": "^17.0.12",
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
+    "@types/node": "^17.0.25",
+    "@types/react": "^17.0.44",
+    "@types/react-dom": "^17.0.15",
     "eslint-preset-hybrid": "*",
-    "typescript": "^4.5.4"
+    "typescript": "^4.6.3"
   }
 }
