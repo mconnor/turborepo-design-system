@@ -1,1 +1,1 @@
-module.exports = require("eslint-preset-hybrid");
+module.exports = require("../eslint-preset-hybrid");
